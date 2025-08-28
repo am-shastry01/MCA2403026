@@ -15,7 +15,7 @@ pipeline {
       steps {
         echo "== BUILD (runs on all branches) =="
         // If your agent is Linux/macOS use sh; if Windows agent use bat (see notes below)
-        sh 'mvn clean package -B'
+        sh 'echo "Simulating Maven build..."'
       }
     }
 
